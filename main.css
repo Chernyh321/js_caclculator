@@ -1,0 +1,32 @@
+html{
+    background-color: rgb(24, 23, 23);
+}
+
+button {
+    background-color:rgb(24, 23, 23);
+    color:antiquewhite;
+    width: 30px;
+    height: 30px;
+}
+
+.calcScreen {
+    border: 2px;
+    border-color: antiquewhite;
+    border-style: solid;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    color:antiquewhite;
+    text-align: end;
+    font-family: fantasy;
+
+
+
+}
+
+.buttonContainer{
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    gap:5px;s
+}

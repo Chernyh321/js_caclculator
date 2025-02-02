@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div id="calcScreens"></div>
+        <div class="buttonContainer">
+            <button onclick="buton_click(event)">1</button>
+            <button onclick="buton_click(event)">2</button>
+            <button onclick="buton_click(event)">3</button>
+            <button onclick="buton_click(event)">4</button>
+            <button onclick="buton_click(event)">5</button>
+            <button onclick="buton_click(event)">6</button>
+            <button onclick="buton_click(event)">7</button>
+            <button onclick="buton_click(event)">8</button>
+            <button onclick="buton_click(event)">9</button>
+            <button onclick="buton_click(event)">0</button>
+            <button onclick="buton_plus(event)">+</button>
+            <button onclick="buton_equals(event)">=</button>
+        </div>
+
+    </body>
+<script>
+    funtion button_equals(){
+        const screen = document.getElementById('calcScreen')
+        screen.innerText = eval(screen.innerText)
+        }
+    }
+</script>
+
+<script>
+    funtion button_plus(){
+        const screen = document.getElementById('calcScreen')
+        if('0123456789'.inclues(screenText[screenText.lenght-1])){
+            screen.innerText += '+'
+        }
+    }
+</script>    
+
+<script>
+    function button_click(event){
+        alert(event.target)
+        const screen = document.getElementById('calcScreen')
+        if(screen.innerText.length<12){
+            screen.innerText += event.target,innerText
+        }
+    }
+</script>
+</html>
